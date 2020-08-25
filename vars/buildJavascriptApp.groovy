@@ -1,6 +1,6 @@
 def call(Map config=[:], Closure body) {
     node {
-        git url: "https://github.com/werne2j/sample-nodejs"
+        git url: "https://github.com/alan-anaya/sample-nodejs.git"
 
         stage("Install") {
             sh "npm install"
